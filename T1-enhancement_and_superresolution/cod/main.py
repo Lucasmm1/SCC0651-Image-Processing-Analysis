@@ -1,4 +1,4 @@
-# Name: Lucas Machado Marinho - 11916645
+# Name: Lucas Machado Marinho
 # Course code: SCC0251
 # Year/Semester: 2024/ 1º Semester
 # Title of the assignment: enhancement and superresolution
@@ -105,6 +105,7 @@ enhancement_met_id = input().rstrip()  # Input enhancement method identifier
 enhancement_met_param = input().rstrip()  # Input enhancement method parameter
 
 # Generate file paths for the low-resolution images
+## Use test_cases images
 img1 = base_name + str(0) + ".png"
 img2 = base_name + str(1) + ".png"
 img3 = base_name + str(2) + ".png"
